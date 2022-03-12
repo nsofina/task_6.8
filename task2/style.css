@@ -1,0 +1,21 @@
+div {
+    width: 400px;
+    height: 100px;
+    margin: 25px;
+    padding: 5px;
+    background-color:azure;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    font-size: 18px;
+    color:rgb(13, 13, 116);   
+}
+
+code {
+    color:blueviolet;
+    font-size: 14px;
+}
+
+p:hover {
+    color:rgb(173, 4, 4);
+}
