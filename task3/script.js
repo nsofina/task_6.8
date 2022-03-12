@@ -1,19 +1,26 @@
-const trafficLightEl = document.querySelector('#trafficLight');
+const trafficLightEl = document.querySelector('#allEl');
+
+const greenEl = document.querySelector('#green');
+const yellowEl = document.querySelector('#yellow');
+const redEl = document.querySelector('#red');
 
 function makeGreen() {
-    trafficLightEl.style.background = ('green');
+    greenEl.style.background = ('green');
+    redEl.style.background = ('black');
     trafficLightEl.removeEventListener('click', makeGreen);
     trafficLightEl.addEventListener('click', makeYellow);
 }
 
 function makeYellow() {
-    trafficLightEl.style.background = ('yellow');
+    yellowEl.style.background = ('yellow');
+    greenEl.style.background = ('black');
     trafficLightEl.removeEventListener('click', makeYellow);
     trafficLightEl.addEventListener('click', makeRed);
 }
 
 function makeRed() {
-    trafficLightEl.style.background = ('red');
+    redEl.style.background = ('red');
+    yellowEl.style.background = ('black');
     trafficLightEl.removeEventListener('click', makeRed);
     trafficLightEl.addEventListener('click', makeGreen);
 }

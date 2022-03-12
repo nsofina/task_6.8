@@ -1,0 +1,12 @@
+p {
+    font-size: 24px;
+    color: rgb(4, 4, 119);
+}
+
+p::after {
+    content:"";
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background:url("/arrow-svgrepo-com.svg") no-repeat;
+}

@@ -1,4 +1,8 @@
 a {
     font-size: 20px;
-    color:crimson;
+    color:rgb(2, 4, 126);
+}
+
+a:hover {
+    color:rgb(241, 2, 50);
 }
