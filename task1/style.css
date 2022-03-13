@@ -4,10 +4,10 @@ p {
 }
 
 p::after {
-    content:"";
+    content: "";
     margin-left: 10px;
-    display:inline-block;
+    display: inline-block;
     width: 100px;
-    height:30px;
-    background:url("/arrow-svgrepo-com.svg") no-repeat;
+    height: 30px;
+    background: url("../arrow-svgrepo-com.svg") no-repeat;
 }
