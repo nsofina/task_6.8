@@ -5,8 +5,9 @@ p {
 
 p::after {
     content:"";
+    margin-left: 10px;
     display:inline-block;
-    width:30px;
+    width: 100px;
     height:30px;
     background:url("/arrow-svgrepo-com.svg") no-repeat;
 }
